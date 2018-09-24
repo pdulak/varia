@@ -24,6 +24,10 @@
 
 - Pentesting cheat sheet: https://jdow.io/blog/2018/03/18/web-application-penetration-testing-methodology/
 
+- Ekstremalnie szybki skaner portów: https://github.com/robertdavidgraham/masscan
+
+- Nagłówki HSTS do podniesienia bezpieczeństwa strony: https://blog.theodo.fr/2017/12/improve-website-security-5-minutes-http-headers/
+
 ### WordPress
 
 - Defend WP using ZIP bomb: https://blog.haschek.at/2017/how-to-defend-your-website-with-zip-bombs.html
@@ -53,6 +57,10 @@
 - Biblioteka do "odręcznych" rysunków: http://roughjs.com/
 
 - Intercoolier - ciekawa biblioteka snippetów: http://intercoolerjs.org/examples/index.html
+
+- Pytania i zadania na rekrutację JS: https://performancejs.com/post/hde6d32/The-Best-List-of-Frontend-JavaScript-Interview-Questions-(written-by-a-Frontend-Engineer)
+
+- Koszt JS i jak go obniżyć: https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4
 
 ### Wydajność / skupienie / planowanie
 
@@ -96,21 +104,33 @@
 
 - ImageMagick scripts: http://www.fmwconcepts.com/imagemagick/index.php
 
+- CSS that will work in old browsers too: https://hacks.mozilla.org/2018/03/how-to-write-css-that-works-in-every-browser-even-the-old-ones/
+
 ### Linux
 
 - Linux servers management using Cockpit: https://cockpit-project.org/
+
+- Terminal only jobs: https://www.youtube.com/watch?v=0-2Ja7T9YF8
 
 ### PHP
 
 - Modern PHP development without framework
 
+- Slack bot in 5 minutes: https://www.twilio.com/blog/2017/02/how-to-build-a-slack-bot-using-php.html
+
 ### Rozwój
 
 - Trenowanie siebie jako programista: https://www.codewars.com/
 
+- List of progresive web apps: https://pwa.rocks/
+
+- Jak być lepszym proramistą: https://www.7pace.com/blog/become-a-better-programmer-skills-development
+
 - Notatki do programowania w różnych językach: https://goalkicker.com/
 
 - History of UserAgent: https://webaim.org/blog/user-agent-string-history/
+
+- Why you should not use "User" word: https://codewithoutrules.com/2018/09/21/users-considered-harmful/
 
 - Curated list of Remote Work resources: https://github.com/lukasz-madon/awesome-remote-job
 
