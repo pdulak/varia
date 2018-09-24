@@ -161,3 +161,11 @@
 - Przejdziesz do geografii (zamiast do historii)
 
 - Chwila nieuwagi i kolejny sukces
+
+## Podróże
+
+- Ruiny zamku w Kopicach: https://pl.wikipedia.org/wiki/Pa%C5%82ac\_w\_Kopicach
+
+- Łatwe szlaki piesze w Tatrach: https://zieloniwpodrozy.pl/latwe-szlaki-w-tatrach/
+
+- Lampa na pokład do siedzenia wieczorami - pamiętać na przyszłe rejsy
