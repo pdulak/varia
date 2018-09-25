@@ -82,6 +82,10 @@
 
 - TensorFlow getting started: https://ml5js.org/docs/getting-started.html
 
+- Pandas Cheat Sheet: https://drive.google.com/file/d/0ByIrJAE4KMTtWXd4ZXh6aFIwZlE/view
+
+- webinary Vladimira do przejrzenia: Titanic, Bike Sharing Demand, Allstate: https://github.com/dataworkshop/webinar-titanic  -  https://github.com/dataworkshop/webinar-bike-sharing-demand  -  https://github.com/dataworkshop/webinar-allstate
+
 ### Webmastering
 
 - Turn website into PWA: https://mxb.at/blog/how-to-turn-your-website-into-a-pwa/
