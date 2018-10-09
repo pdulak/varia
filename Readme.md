@@ -30,8 +30,6 @@
 
 - Hardening Cookies: https://medium.freecodecamp.org/web-security-hardening-http-cookies-be8d8d8016e1
 
-
-
 ### WordPress
 
 - Defend WP using ZIP bomb: https://blog.haschek.at/2017/how-to-defend-your-website-with-zip-bombs.html
@@ -164,7 +162,7 @@
 
 - Ciekawe przykłady użycia Git Log: https://zwischenzugs.com/2018/03/26/git-log-the-good-parts/
 
-  
+- readme - dobre przykłady z projektów open source: https://github.com/matiassingers/awesome-readme  
 
 ## Związane z życiem
 
