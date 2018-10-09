@@ -26,7 +26,11 @@
 
 - Ekstremalnie szybki skaner portów: https://github.com/robertdavidgraham/masscan
 
-- Nagłówki HSTS do podniesienia bezpieczeństwa strony: https://blog.theodo.fr/2017/12/improve-website-security-5-minutes-http-headers/
+- Nagłówki HSTS do podniesienia bezpieczeństwa strony: https://blog.theodo.fr/2017/12/improve-website-security-5-minutes-http-headers/ także https://medium.freecodecamp.org/secure-your-web-application-with-these-http-headers-fd66e0367628
+
+- Hardening Cookies: https://medium.freecodecamp.org/web-security-hardening-http-cookies-be8d8d8016e1
+
+
 
 ### WordPress
 
@@ -62,6 +66,8 @@
 
 - Koszt JS i jak go obniżyć: https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4
 
+- dźwięki i wibracje w JS: https://medium.com/@alexnadalin/emit-a-beeping-sound-with-javascript-4eef2c302ea6
+
 ### Wydajność / skupienie / planowanie
 
 - Improving focus: https://qotoqot.com/blog/improving-focus/
@@ -75,6 +81,8 @@
 - Usefull bash snippets: https://github.com/alexanderepstein/Bash-Snippets
 
 - Szybki system na serwer WWW / NodeJS / Python: https://github.com/githubsaturn/captainduckduck
+
+- useful git commands: https://medium.freecodecamp.org/how-to-become-a-git-expert-e7c38bf54826
 
 ### Machine Learning / Data Science
 
