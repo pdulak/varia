@@ -82,6 +82,8 @@
 
 - useful git commands: https://medium.freecodecamp.org/how-to-become-a-git-expert-e7c38bf54826
 
+- Remote tools - a repository of tools for remote teams: https://remote.tools/
+
 ### Machine Learning / Data Science
 
 - Blog na temat analizy danych: http://prokulski.net/
