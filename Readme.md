@@ -66,6 +66,8 @@
 
 - dźwięki i wibracje w JS: https://medium.com/@alexnadalin/emit-a-beeping-sound-with-javascript-4eef2c302ea6
 
+- 33 concepts of JS: https://github.com/leonardomso/33-js-concepts
+
 ### Wydajność / skupienie / planowanie
 
 - Improving focus: https://qotoqot.com/blog/improving-focus/
@@ -83,6 +85,8 @@
 - useful git commands: https://medium.freecodecamp.org/how-to-become-a-git-expert-e7c38bf54826
 
 - Remote tools - a repository of tools for remote teams: https://remote.tools/
+
+- automatyzacja gita dla wielu repozytoriów: https://github.com/fabiospampinato/autogit
 
 ### Machine Learning / Data Science
 
