@@ -204,4 +204,6 @@
 
 - Łatwe szlaki piesze w Tatrach: https://zieloniwpodrozy.pl/latwe-szlaki-w-tatrach/
 
+- Hallstat w Austrii http://bit.ly/2yIB08D
+
 - Lampa na pokład do siedzenia wieczorami - pamiętać na przyszłe rejsy
