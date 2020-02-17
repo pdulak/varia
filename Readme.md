@@ -100,6 +100,8 @@
 
 - Practical AI learning https://github.com/practicalAI/practicalAI
 
+- NLP in Polish https://github.com/ksopyla/awesome-nlp-polish
+
 ### Związane z DataWorkshop - konkursy, projekty:
 
 - Diabetes Readmission 
