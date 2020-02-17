@@ -98,6 +98,35 @@
 
 - webinary Vladimira do przejrzenia: Titanic, Bike Sharing Demand, Allstate: https://github.com/dataworkshop/webinar-titanic  -  https://github.com/dataworkshop/webinar-bike-sharing-demand  -  https://github.com/dataworkshop/webinar-allstate
 
+- Practical AI learning https://github.com/practicalAI/practicalAI
+
+### Związane z DataWorkshop - konkursy, projekty:
+
+- Diabetes Readmission 
+ - https://github.com/Janusz364/Diabetes-Readmittion
+ 
+- Airline Delays 
+ - https://github.com/zbipio/Airline-delays
+ - https://github.com/wierzbaCK/airline_delay_Kaggle
+ 
+- Property prices competition
+ - https://github.com/japawlik/DataWorkshopComp
+ 
+- Car prices
+ - https://github.com/SlawomirZagorski/MachineLearning
+
+### Inne repozytoria które chcę zapisać
+
+- NoteShring - convert photos to small PDF files https://github.com/mzucker/noteshrink
+
+- OSINT scraper https://github.com/famavott/osint-scraper
+
+- CSS Tips https://github.com/AllThingsSmitty/css-protips
+
+- Flashing Tasmota with TUYA software https://github.com/SynAckFin/TuyOTA
+
+- Reguły do używania GIT https://github.com/k88hudson/git-flight-rules
+
 ### Webmastering
 
 - Turn website into PWA: https://mxb.at/blog/how-to-turn-your-website-into-a-pwa/
