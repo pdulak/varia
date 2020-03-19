@@ -1,0 +1,9 @@
+SELECT
+    projects.projectID,
+    industries = STUFF((
+        SELECT ', ' + i.name FROM industries AS i
+		        LEFT OUTER JOIN projecttoindustry AS p2i
+            ON projects.projectID = p2i.projectID
+        WHERE i.id = p2i.industryID AND p2i.projectID = projects.projectID
+    FOR XML PATH(''), TYPE).value('.', 'NVARCHAR(MAX)'), 1, 1, '')
+FROM projects
