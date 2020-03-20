@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Simple Vanila JS Ellipsis</title>
+    </head>
+    <body>
+        <style type="text/css">
+            div {
+                margin: 10px;
+                padding: 10px;
+            }
+
+            .force-hidden {
+                display: none !important;
+            }
+
+            .more-btn {
+                display: inline-block;
+                margin-left: 5px;
+                cursor: pointer;
+            }
+        </style>
+
+        <div class="more">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut ante vitae magna tristique maximus sed ac
+            est. Suspendisse ornare velit lorem, id suscipit lorem ultrices at. Ut ipsum erat, pulvinar quis nulla sed,
+            suscipit dapibus nunc. Nulla sollicitudin purus eu iaculis placerat. In viverra elementum felis, vel
+            pellentesque orci placerat id. Vestibulum ornare facilisis velit volutpat ullamcorper. Nulla facilisi. Etiam sed
+            metus a mi congue rhoncus ut non est. Pellentesque posuere fermentum laoreet. Aenean placerat dui eu gravida
+            lobortis.
+        </div>
+        <div class="more">
+            Sed ac pretium magna. Aenean rutrum lobortis sollicitudin. Nullam ultricies eget nibh a condimentum. Curabitur
+            in nisi eget augue fermentum porta eget et tellus. Mauris dictum, ligula sit amet lobortis dapibus, nunc dui
+            dictum magna, et convallis velit nunc sit amet massa. Vivamus rhoncus pharetra massa, a mollis velit maximus in.
+            Donec pretium euismod blandit. Donec eu eros venenatis sapien rutrum venenatis sed quis risus. Maecenas
+            tristique nulla sed blandit pulvinar. Donec vitae neque purus. Aliquam fermentum nulla non tortor dapibus
+            pretium.
+        </div>
+        <div class="more">
+            Quisque ultricies enim eu velit pretium, ac egestas arcu semper. Nam quis nunc eu est mollis elementum ac in ex.
+            Vestibulum ornare tincidunt nisi ac finibus. Nulla maximus pharetra eros, sit amet tempor libero scelerisque
+            eget. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis eu enim feugiat, consectetur est eget,
+            venenatis odio. Etiam semper mauris lacus, vitae dignissim augue lobortis sit amet. Nulla maximus dictum auctor.
+        </div>
+        <div class="more">
+            Maecenas et ultricies augue, in finibus dui. Pellentesque vitae lacinia urna. Integer ipsum tortor, fringilla eu
+            metus at, lacinia consequat ante. Praesent elit tellus, dapibus quis ultricies vitae, accumsan ac odio. Vivamus
+            porta, ex ac condimentum gravida, nulla magna eleifend nunc, at ultricies velit ante sit amet leo. Suspendisse
+            convallis laoreet arcu eu pellentesque. Nunc sit amet suscipit ligula. Nunc dignissim mi nec lobortis vulputate.
+            Vestibulum sodales tincidunt ullamcorper. Sed congue dolor nec ipsum luctus varius. Morbi finibus elit id
+            pretium congue. Morbi dictum tortor quis purus blandit, nec venenatis augue viverra. Morbi sed vehicula quam, et
+            accumsan quam. Maecenas pellentesque porta augue sed rutrum.
+        </div>
+        <div class="more">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at diam ut diam bibendum fringilla at nec ex.
+            In sit amet sem in augue porttitor tempor. Quisque varius porta semper. Integer fermentum arcu nisl, et
+            vulputate est tincidunt at. Sed fermentum malesuada nibh, nec blandit ante. Fusce mattis velit lorem, vel
+            consectetur lectus pellentesque dapibus. Fusce et eros dapibus, molestie lectus egestas, fermentum enim. Nulla
+            facilisi. Donec vehicula nisi lorem, quis vestibulum diam facilisis sit amet. Phasellus eu justo metus. Nunc
+            lobortis dolor id consequat suscipit. In mauris lectus, scelerisque in mattis sed, dapibus ut arcu. Sed sit amet
+            enim ac dolor faucibus suscipit at a eros. Pellentesque habitant morbi tristique senectus et netus et malesuada
+            fames ac turpis egestas.
+        </div>
+
+        <script>
+            var charLimit = 220;
+            var moreText = "show more";
+            var lessText = "show less";
+
+            // hide excess text in div elements
+            var elementsToAdjust = document.getElementsByClassName('more');
+            for (var i = 0; i < elementsToAdjust.length; i++) {
+                var thisElement = elementsToAdjust[i];
+                var content = thisElement.innerHTML;
+                if (content.length > charLimit) {
+
+                    var visible = content.substr(0, charLimit);
+                    var hidden = content.substr(charLimit, content.length - charLimit);
+                    // move the ellipsis to the end of current word (do not split in the middle of the word)
+                    var split_on_space = hidden.split(' ');
+                    if (split_on_space.length > 1) {
+                        visible += split_on_space.shift();
+                        hidden = ' ' + split_on_space.join(' ');
+                    }
+
+                    var html = visible + '<span>...</span><span><span class="force-hidden">' + hidden + '</span><button class="more-btn">' + moreText + '</button></span>';
+
+                    thisElement.innerHTML = html;
+                }
+            }
+
+            // create event handlers for "show more" buttons
+            var moreButtons = document.getElementsByClassName('more-btn');
+            for (var i = 0; i < moreButtons.length; i++) {
+                var thisButton = moreButtons[i];
+                thisButton.addEventListener("click", function () {
+                    if (this.classList.contains("less")) {
+                        this.classList.remove("less");
+                        this.innerHTML = moreText;
+                    } else {
+                        this.classList.add("less");
+                        this.innerHTML = lessText;
+                    }
+                    this.previousSibling.classList.toggle('force-hidden');
+                    this.parentNode.previousSibling.classList.toggle('force-hidden');
+                });
+            }
+
+        </script>
+    </body>
+
+</html>
