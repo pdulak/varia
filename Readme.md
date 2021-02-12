@@ -153,6 +153,10 @@
 
 - CSS that will work in old browsers too: https://hacks.mozilla.org/2018/03/how-to-write-css-that-works-in-every-browser-even-the-old-ones/
 
+- Repozytorium ikon do użycia komercyjnego: https://iconduck.com/
+
+- Optymalizator do JPG działający w przeglądarce ale offline: https://jpeg.rocks/
+
 ### Linux
 
 - Linux servers management using Cockpit: https://cockpit-project.org/
@@ -220,6 +224,8 @@
 ### Dzieci
 
 - Chwalenie bez chwalenia: http://matkatylkojedna.pl/4-typy-zdan-bez-super-brawo-ktorymi-pochwalisz-dziecko-ze-zapamieta-konca-zycia/?preview=true
+
+- Papierowe modele komputerów: http://rockybergen.com/papercraft
 
 ### Powiedzonka
 
