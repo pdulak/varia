@@ -1,3 +1,5 @@
+# Intellij Idea
+
 `Alt+Home` - focus on file selection
 
 `Esc` - go back to the editor
@@ -7,3 +9,7 @@
 Multiple cursors:
 * use Find and repeatidly press `Alt+j` to place cursor on the occurence found
 * `Shift+Alt+Click`
+
+`Ctrl+d` - duplicate line
+
+`Ctrl+Shift+K` - delete line (custom shortcut)
