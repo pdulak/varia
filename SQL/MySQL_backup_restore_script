@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS db_name;
+CREATE USER IF NOT EXISTS 'web'@'%' IDENTIFIED BY 'pass';
+GRANT ALL ON db_name.* TO 'web'@'%';
+FLUSH PRIVILEGES;
+
+time mysqldump --single-transaction --routines --events --triggers --column-statistics=0 --ssl-mode=disabled --set-gtid-purged=OFF -u admin -p -h server.url db_name > db_name.sql
+
+time mysql -u admin -p -h new.server.name db_name < db_name.sql
